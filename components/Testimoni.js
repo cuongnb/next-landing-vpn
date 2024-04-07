@@ -10,40 +10,48 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
+      name: "Trang Huỳnh",
+      age: 26,
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Hà nội",
+      country: "VN",
       rating: "4.5",
+      career: "Ngành du lịch",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Luôn luôn đưa ra những địa điểm cùng với giá vé hấp dẫn để khách hàng lựa chọn. Đặt vé dễ dàng trên Autic.vn",
     },
     {
-      name: "iezh Robert",
+      name: "Huyền Phan",
+      age: 28,
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Nghệ An",
+      country: "VN",
       rating: "4.5",
+      career: "Nhân viên văn phòng",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Dịch vụ uy tín, chất lượng, giá rẻ, nhân viên nhiệt tình, thân thiện và rất chuyên nghiệp.",
     },
     {
-      name: "iezh Robert",
+      name: "Trần Thị Trà Mi",
+      age: 23,
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Hà Tĩnh",
+      country: "VN",
       rating: "4.5",
+      career: "Kinh doanh tự do",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Đến với Autic, đây thực sự là môi trường năng động và phù hợp với các bạn trẻ có đam mê kinh doanh online vé máy bay.",
     },
     {
-      name: "iezh Robert",
+      name: "Phan Thị Hiền",
+      age: 23,
       image: "/assets/people-3.png",
       city: "Warsaw",
-      country: "Poland",
+      country: "HCM",
       rating: "4.5",
+      career: "Khách hàng",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Tuyệt quá, lần đầu book vé tại đây, chất lượng quá tuyệt, nhân viên chu đáo, quan tâm khách hàng. Lần sau mình sẽ ủng hộ tiếp ạ.",
     },
   ],
 }) => {
@@ -105,7 +113,7 @@ const Testimoni = ({
                       {listTestimonis.name}
                     </p>
                     <p className="text-sm text-black-500 capitalize">
-                      {listTestimonis.city},{listTestimonis.country}
+                      {listTestimonis.career}
                     </p>
                   </div>
                 </div>
